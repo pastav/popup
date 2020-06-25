@@ -10,15 +10,6 @@ var suf1 = document.getElementById("suf1");
 var suf2 = document.getElementById("suf2");
 var suf3 = document.getElementById("suf3");
 
-
-
-const socket = io();
-
-socket.on('dataishere', function (data) {
-    console.log(data.message);
-    //window.open("/report.pdf", '_blank');
-});
-
 var jsondata;
 
 mybutton.onclick = function () {

@@ -13,3 +13,5 @@ By the time the data is recieved by the server(700ms)(I hope), the client sends 
 
 This calls the puppeteer function and it uses the data, generates and send the pdf to the new tab.
 This function also uses SMTP protocol to send the generated pdf to the email submitted by the client.
+
+The logic will be updated to work with cookies 
